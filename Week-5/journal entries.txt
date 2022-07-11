@@ -1,0 +1,4 @@
+title income_expense amount date
+food E 100.0 02-02-2020
+gas E 200.0 02-02-2022
+transport E 400.0 02-02-2022
