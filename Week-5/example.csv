@@ -1,0 +1,10 @@
+account_number,title,type,amount,date
+00001,Another title,Expense,-20000,01-03-2021
+00001,Something,Expense,-20000,01-01-2021
+00001,A Title,Income,80000,01-02-2021
+00001,New Expense,Expense,-60000,01-03-2022
+00002,A new income,Income,100000,01-03-2022
+00002,A new expense,Expense,-55000,09-09-2022
+00002,A brand new income source,Income,30000,09-10-2022
+00002,Some expense,Expense,-17000,09-11-2022
+1234,New expense for 1234,Expense,-50,01-02-2022
