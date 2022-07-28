@@ -1,0 +1,11 @@
+movie_id,title,genre,rating,release_year
+1,Lord of The Rings,Fantasy,PG,2015
+2,Memento,Drama,PG13,2001
+3,A Beautiful Mind,Drama,PG,208
+4,Gladiator,Drama,PG13,2007
+5,Pirates of The Caribbean,Fantasy,PG,2014
+6,Legends of The Fall,Drama,PG13,1999
+7,Pan's Labrynth,Fantasy,PG,2004
+8,The Boy in the Striped Pajamas,Drama,PG13,2009
+9,Schindler's List,Drama,PG13,2000
+10,Shawshank Redemption,Drama,PG13,1989
