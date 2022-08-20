@@ -1,0 +1,17 @@
+.navbar-nav{
+    flex-direction: row;
+}
+
+.navbar-nav li a{
+    width: 200px;
+}
+
+.form-group label{
+    width: 250px;
+}
+
+
+
+
+
+

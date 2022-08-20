@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block header %}
+    <h1>Inventories</h1>
+{% endblock %}
+{% block content %}
+
+<table class="table">
+    <thead>
+         <th>id</th>
+         <th>sku</th> 
+         <th>name</th>   
+         <th>description</th>
+         <th>purchase_date</th>   
+         <th>quantity</th>  
+         <th>cost</th>  
+         <th>reorder_level</th>  
+         <th></th>
+    </thead>
+    <tbody>
+        {% for item in items %}
+        <form action="/items/{{item.id}}/delete" method="post">
+        <tr>
+            <td> {{ item.id }}</td>
+            <td> {{ item.sku }}</td>
+            <td> {{ item.name }}</td>
+            <td> {{ item.description }}</td>
+            <td> {{ item.purchase_date }}</td>
+            <td> {{ item.quantity }}</td>
+            <td> {{ item.cost }}</td>
+            <td> {{ item.reorder_level }}</td>
+            
+            <td>
+            <a href="/items/{{item.id}}" class="btn btn-success btn-md">
+                <span class="glyphicon glyphicon-pencil"></span> Edit 
+                </a> 
+                <button type="submit" name="delete" value="{{item.id}}" class="btn btn-danger btn-md">Delete</button>
+            </td>            
+        </tr>
+        </form>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

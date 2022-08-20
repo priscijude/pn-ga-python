@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block header %}
+    <h1>Add New Inventory Item</h1>
+{% endblock %}
+{% block content %}
+    <form method="post">
+        <div class="form-group">
+            <label>Sku</label>
+            <input type="text" name="sku"/>
+        </div>
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="name"/>
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <input type="text" name="description"/>
+        </div>
+        <div class="form-group">
+            <label>Purchase_Date</label>
+            <input type="text" name="date" />
+        </div>
+        <div class="form-group">
+            <label>Quantity</label>
+            <input type="text" name="quantity"/>
+        </div>
+        <div class="form-group">
+            <label>Cost</label>
+            <input type="text" name="cost"/>
+        </div>
+        <div class="form-group">
+            <label>Reorder_Level</label>
+            <input type="text" name="reorder" />
+        </div>
+        <button type="submit" class="btn btn-primary">Save Item</button>
+
+    </form>
+{% endblock %}
