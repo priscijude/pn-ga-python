@@ -1,3 +1,4 @@
-id,sku,name,description,purchase_date,quantity,cost,reorder_level
-1,309,White Vinyl Roll,Glossy finish WV Roll,08/12/2022,5,
-2,416,Clear BOPP Roll,Matte finish with Permanent Adhesive,07/30/2022,10
+id,sku,name,description,date,quantity,cost,reorder_level
+1,309,glossy finish wv roll,white wood finish,08/12/2022,10,130.99,2
+2,416,Clear BOPP Roll,Matte finish with Permanent Adhesive,07/30/2022,15,209.54,6.0
+3,304,Vinyl floor,Engineered hard wood finish,03/05/2022,6,500.67,2.0
